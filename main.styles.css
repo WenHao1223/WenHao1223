@@ -30,6 +30,10 @@ body {
     text-transform: uppercase;
 }
 
+.navbar_section {
+    padding-top: calc(var(--padding)/2 + 2em) !important;
+}
+
 /* Navbar */
 .navbar {
     padding: 0.5rem var(--padding);
