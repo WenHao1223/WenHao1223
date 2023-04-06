@@ -1,0 +1,26 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "Wen Hao's Personal Site v2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WenHao1223/WenHao1223.git"
+  },
+  "keywords": [],
+  "author": "Lim Wen Hao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WenHao1223/WenHao1223/issues"
+  },
+  "homepage": "https://github.com/WenHao1223/WenHao1223#readme",
+  "dependencies": {
+    "firebase": "^8.10.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}

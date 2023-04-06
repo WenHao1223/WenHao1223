@@ -91,7 +91,7 @@
   <div class="section navbar_section">
     <h1 class="header">PROJECTS - <span>Innovation & Invention</span></h2>
 
-    <div class="card">
+    <!-- <div class="card">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-4">
           <img src="../../../../footages/images/projects/innovations/sosWatch.png" alt="SOS WATCH" class="img-fluid">
@@ -104,33 +104,18 @@
           </div>
         </div>
       </div>
-    </div>
-  
-    <!-- <div class="card">
-      <div class="row">
-        <div class="col-md-12 col-lg-4">
-          <img src="../../../../footages/images/projects/innovations/sosWatch.png" alt="SOS WATCH" class="img-fluid">
-        </div>
-        <div class="col-md-12 col-lg-7">
-          <div class="card-body">
-            <h3 class="card-title">SOS WATCH<span class="card-subheader">(2017)</span></h3>
-            <p class="card-text">The idea is sparked because of the unexpected report of the Sabah Earthquake in 2015, with a magnitude of 6.9, which has never before occurred in Malaysia. With a reverence for life, the team created SOS Watch, with the goal of assisting rescuers in their search for survivors of disasters ranging from minor to major.</p>
-            <a href="#" class="card-link"><i>Read More</i></a>
-          </div>
-        </div>
-      </div>
     </div> -->
 
-    <div class="card">
+    <!-- <div class="card">
       <img src="../../../../footages/images/projects/innovations/eyeSaver.png" alt="THE EYE SAVER" class="card-img-top">
       <div class="card-body">
         <h3 class="card-title">THE EYE SAVER<span class="card-subheader">(2018)</span></h3>
         <p class="card-text">People generally spend an average of 3 hours and 15 minutes on their phones every day, with the top 20% of smartphone users spending upwards of 4½ hours, according to research done by RescueTime, one of several apps for iOS and Android created to monitor phone use. The Eye Saver (TES) aims to reduce the risk of encountering eye diseases as well as correct the bad habits of users when using phones everyday, protecting your precious eyes.</p>
         <a href="#" class="card-link"><i>Read More</i></a>
       </div>
-    </div>
+    </div> -->
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-xl-6">
         <div class="card">
           <img src="../../../../footages/images/projects/innovations/tda.png" alt="TDA BADGE" class="card-img-top">
@@ -151,7 +136,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 
 
@@ -171,29 +156,25 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-  <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/fireba=ejs/9.19.1/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyDPtx3ttkb_KQpt2VadyUYukLlPVfthdtU",
-    authDomain: "wenhao-1223.firebaseapp.com",
-    projectId: "wenhao-1223",
-    storageBucket: "wenhao-1223.appspot.com",
-    messagingSenderId: "409128505881",
-    appId: "1:409128505881:web:7ee83234cb381621541088",
-    measurementId: "G-68CP1SQ1RZ"
-  };
+  <script>
+    const app = firebase.initializeApp({
+      apiKey: "AIzaSyDPtx3ttkb_KQpt2VadyUYukLlPVfthdtU",
+      authDomain: "wenhao-1223.firebaseapp.com",
+      projectId: "wenhao-1223",
+      storageBucket: "wenhao-1223.appspot.com",
+      messagingSenderId: "409128505881",
+      appId: "1:409128505881:web:7ee83234cb381621541088",
+      measurementId: "G-68CP1SQ1RZ"
+    });
+  </script>
 
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
+<script src="innovations.js?0.0.0"></script>
 </body>
 
 </html>
