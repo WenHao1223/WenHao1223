@@ -17,6 +17,13 @@ h1.header {
     border-radius: 10px;
 }
 
+/* Innovations Page with ID */
+/* List Item Group*/
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
 span.card-subheader {
     font-size: .8rem;
     padding-left: .5rem;

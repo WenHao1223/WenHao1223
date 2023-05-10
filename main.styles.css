@@ -123,9 +123,17 @@ a.contact_manager:hover {
 }
 
 /* Scrollbar */
+.horizontal_scrollbar {
+    overflow-x: auto;
+}
+
 ::-webkit-scrollbar {
     height: 3px;
     width: 5px;
+}
+.horizontal_scrollbar::-webkit-scrollbar {
+    height: 10px;
+    width: 3px;
 }
 ::-webkit-scrollbar-thumb:not(:hover) {
     background: #888;
