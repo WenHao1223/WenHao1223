@@ -38,6 +38,11 @@ if(!paramID){
     });    
 } else {
     console.log(paramID);
+    
+    $("#readMore").on('show.bs.collapse', function(){
+        $("#readMore").prev().children().text("Show Less");
+      });
+      $("#readMore").on('hide.bs.collapse', function(){
+          $("#readMore").prev().children().text("Read More");
+      });
 }
-
-
