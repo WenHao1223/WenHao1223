@@ -18,6 +18,12 @@ h1.header {
 }
 
 /* Innovations Page with ID */
+/* Back */
+#b_back {
+    position: static;
+    z-index: 2000;
+}
+
 /* List Item Group*/
 .list-group-item {
     background-color: transparent;
