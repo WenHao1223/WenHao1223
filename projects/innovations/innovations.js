@@ -12,7 +12,6 @@ if(!paramID){
     db.collection("public/projects/innovations").orderBy("createdYear").get().then(async (innovationsRef) => {
         let indexNo = 1;
         innovationsRef.forEach((innovationDoc) => {
-            // console.log(innovationDoc.id, "=>", innovationDoc.data());
             innovationData = innovationDoc.data();
     
             if (innovationData["divStyle"] == "horizontal"){
@@ -57,7 +56,6 @@ if(!paramID){
             for(let i = 0; i < Object.keys(gallery).length; i++){
                 for(let j = 0; j < (docSpecificData[gallery[Object.keys(gallery)[i]]] != undefined? docSpecificData[gallery[Object.keys(gallery)[i]]].length : 0); j++){
                     eval(`$(".list-group").${Object.keys(gallery)[i]}()`).html(eval(`$(".list-group").${Object.keys(gallery)[i]}()`).html() + `<li class="list-group-item"><iframe src="https://drive.google.com/file/d/${docSpecificData[gallery[Object.keys(gallery)[i]]][j]}/preview" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></li>`);
-                    console.log(docSpecificData[gallery[Object.keys(gallery)[i]]][j]);
                 }
             }
 

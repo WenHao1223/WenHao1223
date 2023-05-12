@@ -17,11 +17,13 @@ h1.header {
     border-radius: 10px;
 }
 
-/* Innovations Page with ID */
-/* Back */
-#b_back {
-    position: static;
-    z-index: 2000;
+span.card-subheader {
+    font-size: .8rem;
+    padding-left: .5rem;
+}
+
+.card-link {
+    color: #C4963B !important;
 }
 
 /* List Item Group*/
@@ -30,13 +32,11 @@ h1.header {
     border: none;
 }
 
-span.card-subheader {
-    font-size: .8rem;
-    padding-left: .5rem;
-}
-
-.card-link {
-    color: #C4963B;
+/* Innovations Page with ID */
+/* Back */
+#b_back {
+    position: static;
+    z-index: 2000;
 }
 
 /* iFrame */
