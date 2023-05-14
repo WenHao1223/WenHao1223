@@ -1,0 +1,42 @@
+/* Header */
+.header {
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: left;
+    text-transform: none;
+}
+
+/* Button Group */
+.btn-group-lg {
+    float: right;
+}
+
+.flex-shrink-1 {
+    align-self: flex-end;
+}
+
+.fa_btn_grp {
+    line-height: inherit;
+}
+
+/* Card */
+.card {
+    background-color: transparent;
+    display: inline-block;
+    margin-bottom: 1em;
+    /* padding: 0 var(--padding); */
+}
+
+.img-fluid, .card-img-top {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    h2.header {
+        font-size: 2rem;
+    }
+    .btn-group-lg {
+        float: none;
+        width: 100%;
+    }
+}

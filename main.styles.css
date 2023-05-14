@@ -24,10 +24,16 @@ body {
 }
 
 .header {
-    font-size: 3rem;
     margin-bottom: 2rem;
     text-align: center;
     text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.5rem;
 }
 
 .navbar_section {
