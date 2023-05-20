@@ -28,7 +28,18 @@
 }
 
 .img-fluid, .card-img-top {
+    aspect-ratio: 3 / 2;
     border-radius: 10px;
+    object-fit: cover;
+}
+
+.card {
+    align-items: center;
+    width: 95%;
+}
+
+.card_t_comp {
+    font-size: .8em;
 }
 
 @media screen and (max-width: 576px) {
