@@ -65,6 +65,20 @@ h3.t_home {
 }
 
 /* Projects */
+.proj_card {
+    --box-shadow: 2px 2px 10px rgba(0,0,0,0.75);
+    border-radius: 2%;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    padding: 1.5vw;
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow);
+}
+
+.proj_card:hover {
+    --box-shadow: 2px 2px 10px rgba(100,100,100,0.75);
+}
+
 img.project {
     border-radius: 1%;
     width: 100%;
@@ -83,6 +97,11 @@ p.project {
 .card {
     background-color: transparent;
     color: var(--black);
+    cursor: pointer;
+}
+
+.card:hover {
+    outline: solid 3px rgba(100,100,100,0.75);
 }
 
 .card-body {

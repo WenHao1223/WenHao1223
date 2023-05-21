@@ -102,9 +102,11 @@
     <h2 class="header">Projects</h2>
     <div class="row row-cols-2 row-cols-lg-2 row-cols-sm-12 g-2 g-lg-3">
       <div class="col col-sm-12 p-3 col_382 project_col">
-        <img class="project" src="assets\images\index\websites.png" alt="Websites">
-        <h2 class="project">Websites</h2>
-        <p class="project">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="proj_card" onclick="document.location.href = 'projects/websites'">
+          <img class="project" src="assets\images\index\websites.png" alt="Websites">
+          <h2 class="project">Websites</h2>
+          <p class="project">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
         <svg class="col_618 project" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 311.39 229.066">
           <g id="design" transform="translate(-239.105 -2403.481)">
             <path id="Path_2" data-name="Path 2" d="M58.838,15.014a10,10,0,0,1,17.324,0L126.348,102a10,10,0,0,1-8.662,15H17.314a10,10,0,0,1-8.662-15Z" transform="matrix(0.966, -0.259, 0.259, 0.966, 396.864, 2426.862)" fill="#d66e95"/>
@@ -114,12 +116,16 @@
         </svg>        
       </div>
       <div class="col col-sm-12 p-3 col_618 project_col">
-        <img class="project" src="assets\images\index\innovation.png" alt="Innovation">
-        <h2 class="project">Innovations & Inventions</h2>
-        <p class="project">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <img class="project" src="assets\images\index\videos.jpg" alt="Videos">
-        <h2 class="project">Videos</h2>
-        <p class="project">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="proj_card" onclick="document.location.href = 'projects/innovations'">
+          <img class="project" src="assets\images\index\innovation.png" alt="Innovation">
+          <h2 class="project">Innovations & Inventions</h2>
+          <p class="project">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="proj_card" onclick="document.location.href = 'projects/videos'">
+          <img class="project" src="assets\images\index\videos.jpg" alt="Videos">
+          <h2 class="project">Videos</h2>
+          <p class="project">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
       </div>
       <!-- <div class="col col-4 col-lg-4 col-md-2 col-sm-12">a</div>
       <div class="col col-8 col-lg-8 col-md-10 col-sm-12">a</div> -->
@@ -131,32 +137,32 @@
     <h2 class="header">Achievements</h2>
     <div class="row g-2 g-lg-3 achievement">
       <div class="col-12 col-sm-4">
-        <div class="card" style="width: 100%;">
+        <div class="card" style="width: 100%;" onclick="document.location.href = 'achievements/competitions'">
           <img src="assets\images\index\competitions.jpg" alt="Competitions">
           <div class="card-body">
             <h5 class="card-title">Competitions</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#" class="btn btn-primary">Go to Page</a>
+            <a href="achievements/competitions" class="btn btn-primary">Go to Page</a>
           </div>
         </div>
       </div>
       <div class="col-12 col-sm-4">
-        <div class="card" style="width: 100%;">
+        <div class="card" style="width: 100%;" onclick="document.location.href = 'achievements/society'">
           <img src="assets\images\index\society.png" alt="Society">
           <div class="card-body">
             <h5 class="card-title">Society</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#" class="btn btn-primary">Go to Page</a>
+            <a href="achievements/society" class="btn btn-primary">Go to Page</a>
           </div>
         </div>
       </div>
       <div class="col-12 col-sm-4">
-        <div class="card" style="width: 100%;">
+        <div class="card" style="width: 100%;" onclick="document.location.href = 'achievements/academic'">
           <img src="assets\images\index\education.png" alt="Academic">
           <div class="card-body">
             <h5 class="card-title">Academic</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#" class="btn btn-primary">Go to Page</a>
+            <a href="achievements/academic" class="btn btn-primary">Go to Page</a>
           </div>
         </div>
       </div>
