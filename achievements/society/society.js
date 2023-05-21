@@ -47,6 +47,8 @@ function load_ls(){
                 }).catch((error) => {
                     firebase.storage().ref('achievements/null.png').getDownloadURL().then((photoURL) => {
                         $(`img#${societyDoc.id}`).attr("src", photoURL);
+                        $(`img#${academicDoc.id}`).addClass("d-sm-none");
+                        $(`img#${academicDoc.id}`).addClass("d-md-block");
                     }).catch((error) => {
                         console.error("null.png not found: ", error);
                     });
