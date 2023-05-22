@@ -83,27 +83,32 @@
             <li><a class="dropdown-item" href="../achievements/academic">Academic</a></li>
           </ul>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">News</a>
+        </li>
       </ul>
     </div>
 
     <!-- Header -->
     <div class="section navbar_section">
-        <h2 class="header mt-4">NEWS</h2>
-        <h4 class="header mt-2">Virtual National Science Challenge (VNSC) (2020)</h4>
+      <h2 class="header mt-4">NEWS</h2>
+      <div class="content">
+        <!-- <h4 class="header mt-2">Virtual National Science Challenge (VNSC) (2020)</h4>
         <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-5">
-                <img src="https://webcdn.guangming.com.my/wp-content/uploads/2020/11/gmbc201112m53-780x390.jpg" class="img-fluid rounded-start" alt="Virtual National Science Challenge (VNSC)">
-              </div>
-              <div class="col-md-7">
-                <div class="card-body">
-                  <h5 class="card-title">體溫人身距離探測徽章脫穎 日新中學科技賽奪冠 - 光明日报</h5>
-                  <p class="card-text">（大山腳12日訊）在疫情當下有感人身距離的重要性，大山腳日新國民型中學3名中四生，成功以“體溫與人身距離探測徽章”的設計概念，勇奪虛擬國家科技競賽（National Science Challenge）全國總冠軍！ 得獎的林文豪、羅鴻升及洪毅晉（皆16歲），從構思到設計作品花了2個月，僅耗費約35令</p>
-                  <a class="card-link" href="https://guangming.com.my/%e9%ab%94%e6%ba%ab%e4%ba%ba%e8%ba%ab%e8%b7%9d%e9%9b%a2%e6%8e%a2%e6%b8%ac%e5%be%bd%e7%ab%a0%e8%84%ab%e7%a9%8e-%e6%97%a5%e6%96%b0%e4%b8%ad%e5%ad%b8%e7%a7%91%e6%8a%80%e8%b3%bd%e5%a5%aa%e5%86%a0" target="_blank"><i>Browse News</i></a>
-                </div>
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="https://webcdn.guangming.com.my/wp-content/uploads/2020/11/gmbc201112m53-780x390.jpg" class="img-fluid rounded-start" alt="Virtual National Science Challenge (VNSC)">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">體溫人身距離探測徽章脫穎 日新中學科技賽奪冠 - 光明日报</h5>
+                <p class="card-text">（大山腳12日訊）在疫情當下有感人身距離的重要性，大山腳日新國民型中學3名中四生，成功以“體溫與人身距離探測徽章”的設計概念，勇奪虛擬國家科技競賽（National Science Challenge）全國總冠軍！ 得獎的林文豪、羅鴻升及洪毅晉（皆16歲），從構思到設計作品花了2個月，僅耗費約35令</p>
+                <a class="card-link" href="https://guangming.com.my/%e9%ab%94%e6%ba%ab%e4%ba%ba%e8%ba%ab%e8%b7%9d%e9%9b%a2%e6%8e%a2%e6%b8%ac%e5%be%bd%e7%ab%a0%e8%84%ab%e7%a9%8e-%e6%97%a5%e6%96%b0%e4%b8%ad%e5%ad%b8%e7%a7%91%e6%8a%80%e8%b3%bd%e5%a5%aa%e5%86%a0" target="_blank"><i>Browse News</i></a>
               </div>
             </div>
           </div>
+        </div> -->
+      </div>
     </div>
 
     <!-- Contact Manager -->
@@ -113,7 +118,7 @@
       <div class="row"><div class="col"><a class="contact_manager" target="_blank" href="https://github.com/WenHao1223"><i class="fa-brands fa-2x fa_contact_manager fa-github"></i></a></div></div>
       <div class="row"><div class="col"><a class="contact_manager" target="_blank" href="https://www.linkedin.com/in/wen-hao-lim-5b13b01a3/"><i class="fa-brands fa-2x fa_contact_manager fa-linkedin-in"></i></a></div></div>
     </div>
-
+    
     <!-- JavaScript -->
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
@@ -121,5 +126,25 @@
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+    
+    <script>
+      const app = firebase.initializeApp({
+        apiKey: "AIzaSyDPtx3ttkb_KQpt2VadyUYukLlPVfthdtU",
+        authDomain: "wenhao-1223.firebaseapp.com",
+        projectId: "wenhao-1223",
+        storageBucket: "wenhao-1223.appspot.com",
+        messagingSenderId: "409128505881",
+        appId: "1:409128505881:web:7ee83234cb381621541088",
+        measurementId: "G-68CP1SQ1RZ"
+      });
+    </script>
+
+    <script src="news.js?0.0.0"></script>
   </body>
 </html>
