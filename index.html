@@ -273,10 +273,13 @@
       <h1 class="gallery">GALLERY</h1>
       <hr class="gallery">
       <div class="gallery mt-4">
-        <button class="gallery" id="b_gallery">+</button>
-        <span class="gallery">See More</sp>
+        <button class="gallery" id="b_gallery" onclick="javascript:gallery()">+</button>
+        <span class="gallery">See More</span>
       </div>
     </div>
+  </div>
+  <div class="gallery galleryCollection d-none">
+    <ul class="gallery galleryCollection"></ul>
   </div>
 
   <!-- Contact Manager -->
@@ -294,6 +297,24 @@
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+
+  <script>
+    const app = firebase.initializeApp({
+      apiKey: "AIzaSyDPtx3ttkb_KQpt2VadyUYukLlPVfthdtU",
+      authDomain: "wenhao-1223.firebaseapp.com",
+      projectId: "wenhao-1223",
+      storageBucket: "wenhao-1223.appspot.com",
+      messagingSenderId: "409128505881",
+      appId: "1:409128505881:web:7ee83234cb381621541088",
+      measurementId: "G-68CP1SQ1RZ"
+    });
+  </script>
+
   <script src="index.js?v=1.0.0" charset="utf-8"></script>
 </body>
 
