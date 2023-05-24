@@ -57,7 +57,8 @@ hr.text {
     width: calc(var(--ratio) * 100%);
 }
 
-a {
+a.text {
+    display: inline-block;
     position: relative;
     z-index: 200;
 }

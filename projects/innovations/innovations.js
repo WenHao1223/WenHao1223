@@ -9,7 +9,7 @@ if(!paramID){
     $("#b_back").addClass("d-none");
 
     // Load data from firebase
-    db.collection("public/projects/innovations").orderBy("createdYear").get().then(async (innovationsRef) => {
+    db.collection("public/projects/innovations").orderBy("createdYear", "desc").get().then(async (innovationsRef) => {
         let indexNo = 1;
         innovationsRef.forEach((innovationDoc) => {
             innovationData = innovationDoc.data();
