@@ -57,6 +57,11 @@ hr.text {
     width: calc(var(--ratio) * 100%);
 }
 
+a {
+    position: relative;
+    z-index: 200;
+}
+
 button.resume {
     background-color: #E1545E;
     border: none;
