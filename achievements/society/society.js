@@ -30,15 +30,17 @@ function load_ls(){
         
                 card_html += `<div class="col col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12"><div class="card"><img id="${societyDoc.id}" src="" class="card-img-top" alt="${societyData["name"]}"><div class="card-body"><h5 class="card-title">${societyData["name"]}</h5><p class="card-text">`;
 
-                award_dict = {"Gold": "🥇", "Silver": "🥈", "Bronze": "🥉", "Participation": "📃"};
-                for(let i = 0; i < societyData["award"].length; i++){
-                    if(societyData["award"][i] in award_dict){
-                        card_html += award_dict[societyData["award"][i]];
-                    } else {
-                        card_html += `🏆`;
+                if(societyData["award"] != ""){
+                    for(let i = 0; i < societyData["award"].length; i++){
+                        card_html += `🏆 ${societyData["award"][i]}<br>`;
                     }
-                    card_html += ` ${societyData["award"][i]}<br>`;
                 }
+                if(societyData["event"] != ""){
+                    for(let i = 0; i < societyData["event"].length; i++){
+                        card_html += `📅 ${societyData["event"][i]}<br>`;
+                    }
+                }
+                
 
                 card_html += `</p></div></div></div>`;
 
@@ -47,8 +49,8 @@ function load_ls(){
                 }).catch((error) => {
                     firebase.storage().ref('achievements/null.png').getDownloadURL().then((photoURL) => {
                         $(`img#${societyDoc.id}`).attr("src", photoURL);
-                        $(`img#${academicDoc.id}`).addClass("d-sm-none");
-                        $(`img#${academicDoc.id}`).addClass("d-md-block");
+                        $(`img#${societyDoc.id}`).addClass("d-sm-none");
+                        $(`img#${societyDoc.id}`).addClass("d-md-block");
                     }).catch((error) => {
                         console.error("null.png not found: ", error);
                     });

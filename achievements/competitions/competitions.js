@@ -51,8 +51,8 @@ function load_ls(){
                 }).catch((error) => {
                     firebase.storage().ref('achievements/null.png').getDownloadURL().then((photoURL) => {
                         $(`img#${competitionDoc.id}`).attr("src", photoURL);
-                        $(`img#${academicDoc.id}`).addClass("d-sm-none");
-                        $(`img#${academicDoc.id}`).addClass("d-md-block");
+                        $(`img#${competitionDoc.id}`).addClass("d-sm-none");
+                        $(`img#${competitionDoc.id}`).addClass("d-md-block");
                     }).catch((error) => {
                         console.error("null.png not found: ", error);
                     });
