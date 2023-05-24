@@ -28,7 +28,7 @@ if(!paramID){
                 }
             }
     
-            storageRef.child(innovationDoc.id+"/photo.png").getDownloadURL().then((photoURL) => {
+            storageRef.child(innovationDoc.id+".png").getDownloadURL().then((photoURL) => {
                 $(`img#${innovationDoc.id}`).attr("src", photoURL);
             }).catch((error) => {
                 console.error("No such file - projects/innovations: ", error);
@@ -46,7 +46,7 @@ if(!paramID){
 
             $(".navbar_section").html($(".navbar_section").html() + `<div class="card"><img src="" id="${paramID}" alt="${paramID}" class="card-img-top"><div class="card-body"><h3 class="card-title">${docSpecificData["name"]}<span class="card-subheader">(${docSpecificData["createdYear"]})</span></h3><p class="card-text">${docSpecificData["des"]}</p><a class="card-link" data-bs-toggle="collapse" href="#readMore" role="button" aria-expanded="false" aria-controls="collapseExample"><i>Read More</i></a><div class="collapse mt-3" id="readMore"><div class="card card-body text-bg-dark">${docSpecificData["longEssay"]}</div></div><div class="row mt-3" style="width: calc(100vw - var(--padding) * 2);"><div class="col col-md-12"><ul class="list-group list-group-horizontal mb-3 horizontal_scrollbar"></ul><ul class="list-group list-group-horizontal mb-3 horizontal_scrollbar"></ul></div><div class="col col-md-12"></div></div></div></div>`);
 
-            storageRef.child(paramID+"/photo.png").getDownloadURL().then((photoURL) => {
+            storageRef.child(paramID+".png").getDownloadURL().then((photoURL) => {
                 $(`img#${paramID}`).attr("src", photoURL);
             }).catch((error) => {
                 console.error("No such file - projects/innovations with ID of", paramID, ": ", error);

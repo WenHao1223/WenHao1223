@@ -10,22 +10,23 @@ db.collection("public/projects/websites").orderBy("createdYear").get().then(asyn
         websiteData = websiteDoc.data();
 
         if (websiteData["divStyle"] == "horizontal"){
-            $(".navbar_section").html($(".navbar_section").html() + `<div class="card vertical"><div class="row"><div class="col-sm-12 col-md-12 col-lg-4"><img src="" id="${websiteDoc.id}" alt="${websiteData['name']}" class="img-fluid"></div><div class="col-sm-12 col-md-12 col-lg-7"><div class="card-body"><h3 class="card-title">${websiteData['name']}<span class="card-subheader">(${websiteData['createdYear']})</span><span class="btn pe-none ms-2 ${websiteDoc.id}">${websiteData["status"]}</span></h3><p class="card-text">${websiteData['des']}</p><a href="${websiteData["link"]}" target="_blank" class="card-link ${websiteDoc.id}"><i>Visit Website</i></a></div></div></div></div>`);
+            $(".navbar_section").html($(".navbar_section").html() + `<div class="card vertical"><div class="row"><div class="col-sm-12 col-md-12 col-lg-4"><img src="" id="${websiteDoc.id}" alt="${websiteData['name']}" class="img-fluid"></div><div class="col-sm-12 col-md-12 col-lg-7"><div class="card-body"><h3 class="card-title">${websiteData['name']}<span class="card-subheader">(${websiteData['createdYear']})</span><span class="btn pe-none ms-2 ${websiteDoc.id}">${websiteData["status"]}</span></h3><p class="card-text">${websiteData['des']}</p><a href="${websiteData["link"]}" target="_blank" class="card-link text-muted pe-none ${websiteDoc.id}"><i>Visit Website</i></a></div></div></div></div>`);
         }
         else if (websiteData["divStyle"] == "fullScreen"){
-            $(".navbar_section").html($(".navbar_section").html() + `<div class="card"><img src="" id="${websiteDoc.id}" alt="${websiteData['name']}" class="card-img-top"><div class="card-body"><h3 class="card-title">${websiteData['name']}<span class="card-subheader">(${websiteData['createdYear']})</span><span class="btn pe-none ms-2 ${websiteDoc.id}">${websiteData["status"]}</span></h3><p class="card-text">${websiteData['des']}</p><a href="${websiteData["link"]}" target="_blank" class="card-link ${websiteDoc.id}"><i>Visit Website</i></a></div></div>`);
+            $(".navbar_section").html($(".navbar_section").html() + `<div class="card"><img src="" id="${websiteDoc.id}" alt="${websiteData['name']}" class="card-img-top"><div class="card-body"><h3 class="card-title">${websiteData['name']}<span class="card-subheader">(${websiteData['createdYear']})</span><span class="btn pe-none ms-2 ${websiteDoc.id}">${websiteData["status"]}</span></h3><p class="card-text">${websiteData['des']}</p><a href="${websiteData["link"]}" target="_blank" class="card-link text-muted pe-none ${websiteDoc.id}"><i>Visit Website</i></a></div></div>`);
         } else if (websiteData["divStyle"] == "vertical") {
             if (indexNo % 2){
-                $(".navbar_section").html($(".navbar_section").html() + `<div class="row"><div class="col-xl-6 xl_index_${indexNo}"><div class="card"><img src="" id="${websiteDoc.id}" alt="${websiteData['name']}" class="card-img-top"><div class="card-body"> <h3 class="card-title">${websiteData['name']}<span class="card-subheader">(${websiteData['createdYear']})</span><span class="btn pe-none ms-2 ${websiteDoc.id}">${websiteData["status"]}</span></h3><p class="card-text">${websiteData['des']}</p><a href="${websiteData["link"]}" target="_blank" class="card-link ${websiteDoc.id}"><i>Visit Website</i></a></div></div></div><div class="col-xl-6 xl_index_${++indexNo}"></div>`);
+                $(".navbar_section").html($(".navbar_section").html() + `<div class="row"><div class="col-xl-6 xl_index_${indexNo}"><div class="card"><img src="" id="${websiteDoc.id}" alt="${websiteData['name']}" class="card-img-top"><div class="card-body"> <h3 class="card-title">${websiteData['name']}<span class="card-subheader">(${websiteData['createdYear']})</span><span class="btn pe-none ms-2 ${websiteDoc.id}">${websiteData["status"]}</span></h3><p class="card-text">${websiteData['des']}</p><a href="${websiteData["link"]}" target="_blank" class="card-link text-muted pe-none ${websiteDoc.id}"><i>Visit Website</i></a></div></div></div><div class="col-xl-6 xl_index_${++indexNo}"></div>`);
             } else {
-                $(`.xl_index_${indexNo}`).html(`<div class="card"><img src="" id="${websiteDoc.id}" alt="${websiteData['name']}" class="card-img-top"><div class="card-body"> <h3 class="card-title">${websiteData['name']}<span class="card-subheader">(${websiteData['createdYear']})</span><span class="btn pe-none ms-2 ${websiteDoc.id}">${websiteData["status"]}</span></h3><p class="card-text">${websiteData['des']}</p><a href="${websiteData["link"]}" target="_blank" class="card-link ${websiteDoc.id}"><i>Visit Website</i></a></div></div></div>`);
+                $(`.xl_index_${indexNo}`).html(`<div class="card"><img src="" id="${websiteDoc.id}" alt="${websiteData['name']}" class="card-img-top"><div class="card-body"> <h3 class="card-title">${websiteData['name']}<span class="card-subheader">(${websiteData['createdYear']})</span><span class="btn pe-none ms-2 ${websiteDoc.id}">${websiteData["status"]}</span></h3><p class="card-text">${websiteData['des']}</p><a href="${websiteData["link"]}" target="_blank" class="card-link text-muted pe-none ${websiteDoc.id}"><i>Visit Website</i></a></div></div></div>`);
                 indexNo++;
             }
         }
         
-        if(websiteData["link"] == "" | websiteData["link"] == undefined){
-            $(`a.${websiteDoc.id}`).addClass("text-muted");
-            $(`a.${websiteDoc.id}`).addClass("pe-none");
+        if(websiteData["status"] == "Published"){
+            console.log(websiteData["status"]);
+            $(`a.${websiteDoc.id}`).removeClass("text-muted");
+            $(`a.${websiteDoc.id}`).removeClass("pe-none");
         }
 
         const status = {"Published": "success", "Developing": "warning", "Planning": "danger"};
@@ -34,7 +35,6 @@ db.collection("public/projects/websites").orderBy("createdYear").get().then(asyn
         storageRef.child(websiteDoc.id+".png").getDownloadURL().then((photoURL) => {
             $(`img#${websiteDoc.id}`).attr("src", photoURL);
         }).catch((error) => {
-            console.error("No such file - projects/websites: ", error);
             storageRef.child("stayTuned.png").getDownloadURL().then((photoURL) => {
                 $(`img#${websiteDoc.id}`).attr("src", photoURL);
             }).catch((error) => {
