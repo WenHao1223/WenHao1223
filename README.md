@@ -15,6 +15,8 @@
       <img src="https://img.shields.io/badge/Twitter-dodgerblue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
     </a>
   </div>
+  
+  <p align="center"><img src="https://komarev.com/ghpvc/?username=WenHao1223&style=flat-square&color=blue" alt=""></p>
 </div>
 
 ### :man_technologist: &nbsp;About Me :
