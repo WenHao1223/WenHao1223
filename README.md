@@ -54,6 +54,6 @@ I am a university student, <img src="https://media.giphy.com/media/WUlplcMpOCEmT
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=itsZed0&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
-[![roadmap.sh](https://api.roadmap.sh/v1-badge/wide/64706dffa4a21941a6c00e26?variant=dark)](https://roadmap.sh)
+[![roadmap.sh](https://api.roadmap.sh/v1-badge/wide/64706dffa4a21941a6c00e26?variant=dark&roadmaps=frontend%2Creact%2Ccpp)](https://roadmap.sh)
 
 ---
