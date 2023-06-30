@@ -14,6 +14,9 @@
     <a href="https://twitter.com/Hao1223Wen">
       <img src="https://img.shields.io/badge/Twitter-dodgerblue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
     </a>
+    <a href="https://wenhao1223.github.io/WenHao1223">
+      <img src="https://img.shields.io/badge/🔗 Portfolio-dimgrey?style=for-the-badge&logo=#&logoColor=white" alt="Portfolio Badge"/>
+    </a>
   </div>
   
   <p align="center"><img src="https://komarev.com/ghpvc/?username=WenHao1223&style=flat-square&color=blue" alt=""></p>
