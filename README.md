@@ -1,6 +1,4 @@
-<div id="header" align="center">
-  <img src="https://wenhao1223.github.io/personalSite/images/avatar.png" width="300"/>
-  
+<div id="header" align="center">  
   <div id="badges">
     <a href="https://www.linkedin.com/in/wen-hao-lim-5b13b01a3">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
@@ -24,11 +22,11 @@
 
 ### :man_technologist: &nbsp;About Me :
 
-I am a university student, <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> currently pursuing foundation year in Computing & IT at Asia Pacific Univeristy of Innovation & Technology (APU), Malaysia.
+He is a JPA-LSPM Scholar 2023/2027, currently pursuing in Universiti Sains Malaysia (USM), Penang by doing bachelor's degree in computer science. 
 
-- 🔭 I would pursue Artificial Intelligence in my further degree studies.
-- 🌱 Currently exploring back-end web dev.
-- ⚡ In my free time I learn programming stuff myself online, via YouTube and Udemy.
+- 🔭 Look forward to study AI in my future specialism.
+- 🌱 Currently exploring full-stack web dev, and Web3.
+
 - 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-Lim%20Wen%20Hao-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/wen-hao-lim-5b13b01a3)
 
 ---
