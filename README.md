@@ -53,12 +53,12 @@ He is a JPA-LSPM Scholar 2023/2027, currently pursuing in Universiti Sains Malay
 ### 🔥 &nbsp; My Stats :
 
 <!-- [![GitHub Streak](https://github-readme-stats.vercel.app/api?username=WenHao1223&theme=dark&background=000000)](https://git.io) -->
-[GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=WenHao1223&theme=vision-friendly-dark)
+![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=WenHao1223&theme=vision-friendly-dark)
 
-[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WenHao1223&theme=vision-friendly-dark&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WenHao1223&theme=vision-friendly-dark&layout=compact)
 
-[GitHub Stats](https://github-readme-stats.vercel.app/api?username=WenHao1223&theme=vision-friendly-dark&include_all_commits=true&rank_icon=github)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=WenHao1223&theme=vision-friendly-dark&include_all_commits=true&rank_icon=github)
 
-[roadmap.sh](https://api.roadmap.sh/v1-badge/wide/64706dffa4a21941a6c00e26?variant=dark&roadmaps=frontend%2Creact%2Ccpp)
+![roadmap.sh](https://api.roadmap.sh/v1-badge/wide/64706dffa4a21941a6c00e26?variant=dark&roadmaps=frontend%2Creact%2Ccpp)
 
 ---
