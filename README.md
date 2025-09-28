@@ -37,7 +37,7 @@ Hii, this is Wen Hao!
 
 - 📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/wenhao1223/)
 
-### 🛠 &nbsp;Tech Stack
+## 🛠 Tech Stack
 
 ### 💻 Programming Languages
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" style="height:22px;"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" style="height:22px;"> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" style="height:22px;"> <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" style="height:22px;"> <img src="https://img.shields.io/badge/Dart-00B4AB?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" style="height:22px;">
@@ -105,4 +105,5 @@ Hii, this is Wen Hao!
 </div>
 
 ---
+
 
