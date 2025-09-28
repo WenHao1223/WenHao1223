@@ -76,7 +76,7 @@ Hii, this is Wen Hao!
 ### 🔌 Hardware & IoT
 <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" style="height:22px;">&nbsp;
 
-### 🔥 &nbsp; My Stats :
+## 🔥 My Stats
 
 <div align="center">
 
@@ -88,15 +88,15 @@ Hii, this is Wen Hao!
 
 </div>
 
-### 💻 &nbsp; LeetCode Progress :
+## 💻 LeetCode Progress
 
 <div align="center">
 
-![LeetCode Stats](https://leetcode.card.workers.dev/szeyusim?theme=auto&font=baloo&extension=null)
+![LeetCode Stats](https://leetcode.card.workers.dev/wenhao1223?theme=auto&font=baloo&extension=null)
 
 </div>
 
-### 🛣️ &nbsp; Learning Roadmap :
+## 🛣️ Learning Roadmap
 
 <div align="center">
 
@@ -105,3 +105,4 @@ Hii, this is Wen Hao!
 </div>
 
 ---
+
