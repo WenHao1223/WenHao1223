@@ -80,11 +80,11 @@ Hii, this is Wen Hao!
 
 <div align="center">
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=WenHao1223&theme=vision-friendly-dark)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=WenHao1223&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WenHao1223&theme=vision-friendly-dark&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WenHao1223&theme=tokyonight&layout=compact)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=WenHao1223&theme=vision-friendly-dark&include_all_commits=true&rank_icon=github)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=WenHao1223&theme=tokyonight)
 
 </div>
 
@@ -105,5 +105,6 @@ Hii, this is Wen Hao!
 </div>
 
 ---
+
 
 
