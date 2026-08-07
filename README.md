@@ -17,15 +17,15 @@ I specialize in designing and deploying AI agents, from multi-agent architecture
 
 ## 👋 About Me
 
-I'm a Year 3 Intelligent Computing student at **Universiti Sains Malaysia (USM)**, JPA-LSPM Scholar (CGPA 3.92), and President of the USM Computer Science Society (2024/2025).
+I'm a Year 3 Intelligent Computing student at **Universiti Sains Malaysia (USM)**, JPA-LSPM Scholar (CGPA 3.92), and former President of the USM Computer Science Society (2024/2025).
 
 My focus is on **agentic AI**: designing AI agents that reason, plan, and act, then wiring them into real production systems. That work sits alongside full-stack development, since most agent projects still need a proper front end, database, and deployment pipeline behind them.
 
 My work usually falls into three areas:
 
-- 🤖 **Agentic AI & LLM Orchestration** — MCP, A2A, LangChain, LangSmith, multi-agent architecture, RAG
-- 🌐 **Full-Stack Engineering** — React, TypeScript, Node.js, Firebase, Supabase, PostgreSQL
-- 🎯 **AI Safety & Security** — red teaming, adversarial testing, CTF competitions
+- 🤖 **Agentic AI & LLM Orchestration**: MCP, A2A, LangChain, LangSmith, multi-agent architecture, RAG
+- 🌐 **Full-Stack Engineering**: React, TypeScript, Node.js, Firebase, Supabase, PostgreSQL
+- 🎯 **AI Safety & Security**: red teaming, CTF competitions
 
 - 🏆 Active hackathon competitor and CTF player
 - 🌐 Built websites for the School of Computer Sciences and CS Society USM, including [PIXEL](https://pixelusm.com/), [V HACK](https://vhackusm.com/), and the [CS Society Official Website](https://cssocietyusm.com/)
@@ -46,7 +46,7 @@ My work usually falls into three areas:
 
 ## 🛠️ Tech Stack
 
-![Tech Stack](https://skillicons.dev/icons?i=python,js,cpp,java,dart,html,css,tailwind,react,astro,nodejs,aws,firebase,cloudflare,mysql,postgres,mongodb,git,github,docker,figma&theme=dark)
+![Tech Stack](https://skillicons.dev/icons?i=py,js,ts,cpp,java,cs,dart,php,r,html,css,tailwind,sass,react,jquery,vite,astro,nodejs,flutter,mysql,postgres,mongodb,sqlite,supabase,aws,firebase,cloudflare,vercel,gcp,git,github,githubactions,docker,jenkins,bitbucket,linux,vscode,androidstudio,idea,atom,postman,npm,powershell,arduino,sklearn,figma,ae,au,ps,pr,xd,discord,notion&theme=dark)
 
 *Core stack for AI agent work: LangChain • LangSmith • Model Context Protocol (MCP) • A2A • AG-UI • Amazon Bedrock*
 
