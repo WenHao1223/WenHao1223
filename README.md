@@ -12,6 +12,7 @@ I specialize in designing and deploying AI agents, from multi-agent architecture
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wenhaojshs@gmail.com)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=wenhao1223&color=dc143c&style=for-the-badge)](https://github.com/WenHao1223)
+[![Resume](https://img.shields.io/badge/Resume-EC1C24?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/doc/LIM%20WEN%20HAO%20Resume.pdf)
 
 ---
 
