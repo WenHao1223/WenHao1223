@@ -14,6 +14,10 @@ I specialize in designing and deploying AI agents, from multi-agent architecture
 [![Profile Views](https://komarev.com/ghpvc/?username=wenhao1223&color=dc143c&style=for-the-badge)](https://github.com/WenHao1223)
 [![Resume](https://img.shields.io/badge/Resume-EC1C24?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/doc/LIM%20WEN%20HAO%20Resume.pdf)
 
+<a href="https://user-badge.committers.top/malaysia/WenHao1223">
+  <img src="https://user-badge.committers.top/malaysia/WenHao1223.svg" alt="committers.top badge" />
+</a>
+
 ## 👋 About Me
 
 I'm a Year 4 Intelligent Computing student at **Universiti Sains Malaysia (USM)**, JPA-LSPM Scholar (CGPA 3.92), and former President of the USM Computer Science Society (2024/2025).
